@@ -37,7 +37,7 @@ const userSchema = new Schema({
         required: true,
         match: [
           /^[a-zA-Z\s]+$/,
-          'Please enter a valid city name with only alphabets and spaces'
+          'City Name must only be in alphabets'
         ]
       },
       zipcode: {
@@ -45,7 +45,7 @@ const userSchema = new Schema({
         required: true,
         match: [
           /^\d{5}-\d{4}$/,
-          'Zip code must be in the format of 12345-1234 (DDDDD-DDDD, D = digit)'
+          'Zip code must be in format ex: 12345-1234'
         ]
       },
       geo: {
@@ -64,7 +64,7 @@ const userSchema = new Schema({
       required: true,
       match: [
         /^1-\d{3}-\d{3}-\d{4}$/,
-        'Phone must be in the format of 1-123-123-1234 (D-DDD-DDD-DDD, D = digit)'
+        'Phone number  must be in format ex: (D-DDD-DDD-DDD, D = digit)'
       ]
     },
     website: {
