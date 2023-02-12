@@ -1,0 +1,30 @@
+{
+  "name": "lab04_comp3133",
+  "version": "1.0.0",
+  "description": "lab4 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maoe1/lab04_comp3133.git"
+  },
+  "keywords": [
+    "validation",
+    "nodejs",
+    "post",
+    "restapi"
+  ],
+  "author": "Mahmoud Farghali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maoe1/lab04_comp3133/issues"
+  },
+  "homepage": "https://github.com/Maoe1/lab04_comp3133#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  }
+}
